@@ -65,8 +65,14 @@ while True:
         print("Your item has been added!")
 
     elif selection == "output":
-        print("\n"+backpack+"\n")
+        print("\n")
+        print(backpack)
+        print("\n")
 
+    elif selection == "exit":
+        break
 
+    else:
+        print("Invalid selection!")
 
 print 
